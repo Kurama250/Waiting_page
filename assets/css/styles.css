@@ -1,0 +1,99 @@
+/**
+By Kurama250
+Github : github.com/Kurama250
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    color: #003cff;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #003cff;
+    font-weight: bold;
+}
+
+.animated-image {
+    width: 220px;
+    height: auto;
+    animation: bounce 3s infinite;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .animated-image {
+        width: 180px;
+    }
+}
