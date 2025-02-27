@@ -6,10 +6,10 @@ Github : github.com/Kurama250
 const countdownMessage = document.querySelector(".countdown p");
 
 const messages = [
-    "Merci de votre patience !",
-    "Nous revenons bientôt !",
-    "Restez connecté pour plus d'infos !",
-    "Lancement imminent !"
+    "Thank you for your patience !",
+    "We'll be back soon !",
+    "Stay tuned for more updates !",
+    "Launching soon !""
 ];
 
 let messageIndex = 0;
