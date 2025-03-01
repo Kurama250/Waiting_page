@@ -26,4 +26,3 @@
 ![alt text](https://github.com/Kurama250/Waiting_page/blob/main/waiting.png?raw=true)
 
 <h3 align="center">If you like this repository don't hesitate to give it a star ⭐ !</h3>
-<h1 align="center">There you go and be happy !</h1>
